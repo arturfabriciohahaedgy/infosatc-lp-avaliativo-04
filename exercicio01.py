@@ -1,7 +1,7 @@
-minhaTupla = (1, 2, "Artur", "Caramelo", 4, 5)
+def parametroInvertido(palavra):
+    palavraInvertida = palavra[::-1]
+    print(palavraInvertida)
 
-minhaTupla[2] = "Fabricio"
-print(minhaTupla)
+parametroInvertido("ATOR")
 
-#ocorre um erro, pois a tulpa não foi feita para ter o valor alterado sobre outro
-#por isso tem a descrição "tuple object does not support item assignment"
+#o comando [::-1] serve pra inverter a palavra
